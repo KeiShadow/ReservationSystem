@@ -1,0 +1,3 @@
+Petr Noga, NOG0030, C/07 pondělí 16:00-17:30, zadání č. 5 - Rezervace místností
+
+V datovom súbore budú miestnosti popísané schémou: * id, * patro, * cislo_mistnosti, * kapacita sedadel, * cena za den rezervace) a druhý súbor s dátami o rezervácii daných miestností: * id_miestnosti, * den_rezervacie. Úkolom bude možnosť rezervácie miestnosti na zvolený deň (ak už nieje obsadená). Vyhladanie voľných miestností na určitý dátum, do určitej ceny, prípadně kapacity osob a samozrejme export najbližších rezervácií vybranej miestnosti do HTML súboru.

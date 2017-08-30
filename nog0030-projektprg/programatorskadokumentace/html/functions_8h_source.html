@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Rezervace místností: Zdrojový soubor functions.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Rezervace místností
+   &#160;<span id="projectnumber">2</span>
+   </div>
+   <div id="projectbrief">Petr Noga, VSB- FEI, Semestrální projekt</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generováno programem Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Hledat');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hlavní&#160;stránka</span></a></li>
+      <li><a href="annotated.html"><span>Třídy</span></a></li>
+      <li class="current"><a href="files.html"><span>Soubory</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Hledat" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Seznam&#160;souborů</span></a></li>
+      <li><a href="globals.html"><span>Symboly&#160;v&#160;souborech</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('functions_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">functions.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="functions_8h.html">Zobrazit dokumentaci tohoto souboru.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef FUNCTIONS_H_INCLUDED</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define FUNCTIONS_H_INCLUDED</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;ctime&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structrooms.html">   25</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structrooms.html">rooms</a> {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> ID;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> floor;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> numOfRoom;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> freeCapacity;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> capacity;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">int</span> prizePerDay;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structreservation.html">   37</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structreservation.html">reservation</a> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">int</span> ID;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">string</span> date;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="functions_8h.html#aa7672227ef05414eb694be3abed6e5c1">ValidDate</a>(<span class="keywordtype">string</span> date);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">int</span> <a class="code" href="functions_8h.html#a47fca986081c264349f0fed3623748ef">count</a>(<span class="keywordtype">string</span> fileName);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#a966c91d395b6b99e25b87177e1a65313">ReadRoom</a>(<span class="keywordtype">string</span> fileName, <a class="code" href="structrooms.html">rooms</a> *x);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#a2f18788d0f982f347faf008a33d0e60e">ReadRes</a>(<span class="keywordtype">string</span> fileName, <a class="code" href="structreservation.html">reservation</a> *y);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#af4d8252e9c6f5ba0dbcf403c19c14021">AllRoom</a>(<span class="keywordtype">string</span> fileNameRoom, <span class="keywordtype">string</span> fileNameRes ,<a class="code" href="structrooms.html">rooms</a> *x, <a class="code" href="structreservation.html">reservation</a> *y);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#a9daa871c7bfa16b7e916225b0a697a8f">FreeRoom</a>(<span class="keywordtype">string</span> fileNameRoom, <a class="code" href="structrooms.html">rooms</a> *x);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#adb401b39cc5d56237eb7cd166ade7e4d">PrizeByFreeRoom</a>(<span class="keywordtype">string</span> fileNameRoom, <span class="keywordtype">int</span> cena, <a class="code" href="structrooms.html">rooms</a> *x);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#ad8aad89f1e625802753acfaefb1b9955">DateByFreeRoom</a>(<span class="keywordtype">string</span> fileNameRoom, <span class="keywordtype">string</span> fileNameRes, <a class="code" href="structrooms.html">rooms</a> *x, <a class="code" href="structreservation.html">reservation</a> *y);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#a5eb9ac4a2eb91a78b0a4911ce989d2f1">ResByDate</a>(<span class="keywordtype">string</span> fileNameRoom, <span class="keywordtype">string</span> fileNameRes, <a class="code" href="structrooms.html">rooms</a> *x, <a class="code" href="structreservation.html">reservation</a> *y);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keywordtype">void</span> <a class="code" href="functions_8h.html#aa9f80f0804a386044b18d206bf771f7c">ExportToHtml</a>(<span class="keywordtype">string</span> fileNameRoom, <span class="keywordtype">string</span> fileNameRes, <a class="code" href="structrooms.html">rooms</a> *x, <a class="code" href="structreservation.html">reservation</a> *y);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="functions_8h.html#a9e5f77312b4a5c23aca197a91fcff90f">testInput</a>(<span class="keywordtype">int</span> cislo);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="functions_8h.html#a94d6e9688d881a49e9c6b4280bac34cc">testCena</a>(<span class="keywordtype">int</span> cena);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">#endif // FUNCTIONS_H_INCLUDED</span></div>
+<div class="ttc" id="functions_8h_html_a966c91d395b6b99e25b87177e1a65313"><div class="ttname"><a href="functions_8h.html#a966c91d395b6b99e25b87177e1a65313">ReadRoom</a></div><div class="ttdeci">void ReadRoom(string fileName, rooms *x)</div><div class="ttdoc">Funkce, ktera nacita informace mistnosti do struktury. </div><div class="ttdef"><b>Definition:</b> functions.cpp:118</div></div>
+<div class="ttc" id="functions_8h_html_a9daa871c7bfa16b7e916225b0a697a8f"><div class="ttname"><a href="functions_8h.html#a9daa871c7bfa16b7e916225b0a697a8f">FreeRoom</a></div><div class="ttdeci">void FreeRoom(string fileNameRoom, rooms *x)</div><div class="ttdoc">Funkce, ktera zobrazi vsechny volne mistnosti se stejnym id ze struktury. </div><div class="ttdef"><b>Definition:</b> functions.cpp:162</div></div>
+<div class="ttc" id="functions_8h_html_aa9f80f0804a386044b18d206bf771f7c"><div class="ttname"><a href="functions_8h.html#aa9f80f0804a386044b18d206bf771f7c">ExportToHtml</a></div><div class="ttdeci">void ExportToHtml(string fileNameRoom, string fileNameRes, rooms *x, reservation *y)</div><div class="ttdoc">Funkce, ktera exportuje rezervace do tabulky HTML souboru. </div><div class="ttdef"><b>Definition:</b> functions.cpp:295</div></div>
+<div class="ttc" id="functions_8h_html_a2f18788d0f982f347faf008a33d0e60e"><div class="ttname"><a href="functions_8h.html#a2f18788d0f982f347faf008a33d0e60e">ReadRes</a></div><div class="ttdeci">void ReadRes(string fileName, reservation *y)</div><div class="ttdoc">Funkce, ktera nacita informace rezervace do struktury. </div><div class="ttdef"><b>Definition:</b> functions.cpp:132</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="functions_8h_html_adb401b39cc5d56237eb7cd166ade7e4d"><div class="ttname"><a href="functions_8h.html#adb401b39cc5d56237eb7cd166ade7e4d">PrizeByFreeRoom</a></div><div class="ttdeci">void PrizeByFreeRoom(string fileNameRoom, int cena, rooms *x)</div><div class="ttdoc">Funkce, ktera zobrazi vsechny volne mistnosti se stejnym id ze struktury do zadane ceny...</div><div class="ttdef"><b>Definition:</b> functions.cpp:176</div></div>
+<div class="ttc" id="structreservation_html"><div class="ttname"><a href="structreservation.html">reservation</a></div><div class="ttdoc">Struktura rooms  ID ID  date Datum. </div><div class="ttdef"><b>Definition:</b> functions.h:37</div></div>
+<div class="ttc" id="functions_8h_html_a9e5f77312b4a5c23aca197a91fcff90f"><div class="ttname"><a href="functions_8h.html#a9e5f77312b4a5c23aca197a91fcff90f">testInput</a></div><div class="ttdeci">bool testInput(int cislo)</div><div class="ttdoc">Funkce na otestovani spravne zadaneho cisla v menu. </div><div class="ttdef"><b>Definition:</b> functions.cpp:361</div></div>
+<div class="ttc" id="structrooms_html"><div class="ttname"><a href="structrooms.html">rooms</a></div><div class="ttdoc">Struktura rooms  ID ID mistnosti  floor Poschodi  numOfRoom mistnosti  capacity Pocet sedadel  prizeP...</div><div class="ttdef"><b>Definition:</b> functions.h:25</div></div>
+<div class="ttc" id="functions_8h_html_af4d8252e9c6f5ba0dbcf403c19c14021"><div class="ttname"><a href="functions_8h.html#af4d8252e9c6f5ba0dbcf403c19c14021">AllRoom</a></div><div class="ttdeci">void AllRoom(string fileNameRoom, string fileNameRes, rooms *x, reservation *y)</div><div class="ttdoc">Funkce, ktera zobrazi vsechny mistnosti se stejnym id ze struktury i s datem. </div><div class="ttdef"><b>Definition:</b> functions.cpp:147</div></div>
+<div class="ttc" id="functions_8h_html_a94d6e9688d881a49e9c6b4280bac34cc"><div class="ttname"><a href="functions_8h.html#a94d6e9688d881a49e9c6b4280bac34cc">testCena</a></div><div class="ttdeci">bool testCena(int cena)</div><div class="ttdoc">Funkce na otestovani spravne zadanehe ceny. </div><div class="ttdef"><b>Definition:</b> functions.cpp:367</div></div>
+<div class="ttc" id="functions_8h_html_a47fca986081c264349f0fed3623748ef"><div class="ttname"><a href="functions_8h.html#a47fca986081c264349f0fed3623748ef">count</a></div><div class="ttdeci">int count(string fileName)</div><div class="ttdoc">Funkce, ktera vraci pocet radku zadaneho souboru. </div><div class="ttdef"><b>Definition:</b> functions.cpp:109</div></div>
+<div class="ttc" id="functions_8h_html_aa7672227ef05414eb694be3abed6e5c1"><div class="ttname"><a href="functions_8h.html#aa7672227ef05414eb694be3abed6e5c1">ValidDate</a></div><div class="ttdeci">bool ValidDate(string date)</div><div class="ttdoc">Funkce na otestovani spravne zadaneho data. </div><div class="ttdef"><b>Definition:</b> functions.cpp:18</div></div>
+<div class="ttc" id="functions_8h_html_a5eb9ac4a2eb91a78b0a4911ce989d2f1"><div class="ttname"><a href="functions_8h.html#a5eb9ac4a2eb91a78b0a4911ce989d2f1">ResByDate</a></div><div class="ttdeci">void ResByDate(string fileNameRoom, string fileNameRes, rooms *x, reservation *y)</div><div class="ttdoc">Funkce, ktera zapisuje zadane mistnosti rezervace do souboru. </div><div class="ttdef"><b>Definition:</b> functions.cpp:214</div></div>
+<div class="ttc" id="functions_8h_html_ad8aad89f1e625802753acfaefb1b9955"><div class="ttname"><a href="functions_8h.html#ad8aad89f1e625802753acfaefb1b9955">DateByFreeRoom</a></div><div class="ttdeci">void DateByFreeRoom(string fileNameRoom, string fileNameRes, rooms *x, reservation *y)</div><div class="ttdoc">Funkce, ktera zobrazi vsechny mistnosti se stejnym id ze struktury podle zadaneho data...</div><div class="ttdef"><b>Definition:</b> functions.cpp:188</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d522931ffa1371640980b621734a4381.html">Users</a></li><li class="navelem"><a class="el" href="dir_14303d6adbe1de1047feebdc6660c600.html">Petr</a></li><li class="navelem"><a class="el" href="dir_0792b13cb6a6f21b0fa127c38d9ef3fd.html">Desktop</a></li><li class="navelem"><a class="el" href="dir_2749987336ba57ca2362b697be2f5a9b.html">semestralka</a></li><li class="navelem"><a class="el" href="dir_7fd62c83e3d5eeca92bce460064d39f0.html">nevim</a></li><li class="navelem"><a class="el" href="dir_dd395bc54c4d521a344a07e8b5e8fdc0.html">solution</a></li><li class="navelem"><a class="el" href="functions_8h.html">functions.h</a></li>
+    <li class="footer">Generováno programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
+  </ul>
+</div>
+</body>
+</html>
